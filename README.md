@@ -1,4 +1,4 @@
 # learningML
 Basics of Machine Learning
-Creating a neural network from scratch using Pandas
-Creating a neural network with tensorflow
+Small Python examples exploring artificial neurons and neural networks, from a single neuron to a multilayer perceptron trained with gradient descent and TensorFlow/Keras.
+
