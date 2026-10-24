@@ -113,6 +113,13 @@ if __name__ == "__main__":
 
     mlp.train(items,targets,50,0.1)
 
+    input = np.array([0.1,0.2])
+    target = np.array([0.3])
+    output = mlp.forward_propogate(input)
+    print("Input: ",input)
+    print("Target: ",target)
+    print("network Output: ",output)
+
     # #forwad propogation
     # output = mlp.forward_propogate(inputs)
     # print("Output: ",output)
